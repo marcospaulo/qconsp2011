@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="description_logo">QConSP 2011</string>
+	<string name="description_info_icon">Informations</string>
+	<string name="description_home_icon">home</string>
+	<string name="app_name">App</string>
+</resources>

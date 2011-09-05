@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:padding="10dip">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+id/home_btn_baseball"
+			style="@style/HomeButton"
+			android:onClick="onClickSport"
+			android:text="Sábado"
+			android:drawableTop="@drawable/icon" />
+		<Button
+			android:id="@+id/home_btn_basketball"
+			style="@style/HomeButton"
+			android:onClick="onClickSport"
+			android:text="Domingo"
+			android:drawableTop="@drawable/icon" />
+
+		<Button
+			android:id="@+id/home_btn_cricket"
+			style="@style/HomeButton"
+			android:onClick="onClickSport"
+			android:text="etc"
+			android:drawableTop="@drawable/icon" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+id/home_btn_americanfootball"
+			style="@style/HomeButton"
+			android:onClick="onClickSport"
+			android:text="etc"
+			android:drawableTop="@drawable/icon" />
+		<Button
+			android:id="@+id/home_btn_formula_um"
+			style="@style/HomeButton"
+			android:onClick="onClickSport"
+			android:text="etc"
+			android:drawableTop="@drawable/icon" />
+
+		<Button
+			android:id="@+id/home_btn_hockey"
+			style="@style/HomeButton"
+			android:onClick="onClickSport"
+			android:text="etc"
+			android:drawableTop="@drawable/icon" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+id/home_btn_rugby"
+			style="@style/HomeButton"
+			android:onClick="onClickSport"
+			android:text="etc"
+			android:drawableTop="@drawable/icon" />
+		<Button
+			android:id="@+id/home_btn_soccer"
+			style="@style/HomeButton"
+			android:onClick="onClickSport"
+			android:text="etc"
+			android:drawableTop="@drawable/icon" />
+		<Button
+			android:id="@+id/home_btn_tennis"
+			style="@style/HomeButton"
+			android:onClick="onClickSport"
+			android:text="etc"
+			android:drawableTop="@drawable/icon" />
+
+	</LinearLayout>
+
+</LinearLayout>

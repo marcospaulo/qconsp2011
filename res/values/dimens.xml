@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<dimen	name="text_size_small">12sp</dimen>
+	<dimen	name="text_size_medium">14sp</dimen>
+	<dimen	name="text_size_large">18sp</dimen>
+	<dimen	name="text_size_extralarge">22sp</dimen>
+
+	<dimen	name="actionbar_height">40dp</dimen>
+
+
+</resources>

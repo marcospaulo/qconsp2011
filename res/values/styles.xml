@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Variation on the Light theme that turns off the title -->
+	<style name="Theme.QconSP" parent="android:style/Theme.Light">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+
+		<!-- custom attributes -->
+		<!--
+			<item name="textHeaderMaxLines">@integer/text_header_max_lines</item>
+		-->
+		<!--
+			<item
+			name="trackAbstractMaxLines">@integer/track_abstract_max_lines</item>
+		-->
+
+		<!-- for programmatic instantiation -->
+		<!--
+			<item
+			name="actionbarCompatButtonStyle">@style/ActionBarCompatButton</item>
+		-->
+		<!--
+			<item
+			name="actionbarCompatProgressIndicatorStyle">@style/ActionBarCompatProgressIndicator</item>
+		-->
+		<item name="actionbarCompatSeparatorStyle">@style/ActionBarCompatSeparator</item>
+		<item name="actionbarCompatLogoStyle">@style/ActionBarCompatLogo</item>
+		<item name="actionbarCompatTextStyle">@style/ActionBarCompatText</item>
+		
+	</style>
+
+	<style name="ActionBar">
+		<item name="android:id">@id/actionbar</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">@dimen/actionbar_height</item>
+		<item name="android:orientation">horizontal</item>
+<!--		<item name="android:background">@drawable/background</item>-->
+	</style>
+
+	<style name="TitleBarButtons">
+		<item name="android:layout_width">@dimen/actionbar_height</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:scaleType">center</item>
+		<item name="android:background">@null</item>
+	</style>
+
+	<style name="HomeButton">
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:textSize">@dimen/text_size_small</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/actionbar_text</item>
+		<item name="android:background">@null</item>
+	</style>
+
+	<style name="ActionBarCompatSeparator">
+		<item name="android:layout_width">2px</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:background">@drawable/actionbar_compat_separator</item>
+	</style>
+
+	<style name="ActionBarCompatLogo">
+		<item name="android:id">@id/actionbar_compat_logo</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:clickable">false</item>
+		<item name="android:scaleType">center</item>
+		<item name="android:contentDescription">@string/description_logo</item>
+		<item name="android:src">@drawable/logo_qconsp</item>
+	</style>
+
+	<style name="ActionBarCompatText">
+		<item name="android:id">@id/actionbar_compat_text</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:textSize">@dimen/text_size_medium</item>
+		<item name="android:paddingLeft">12dp</item>
+		<item name="android:paddingRight">12dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/actionbar_text</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:ellipsize">end</item>
+	</style>
+
+
+	<style name="SplashScreen">
+		<item name="android:padding">0dp</item>
+<!--		<item name="android:windowBackground">@drawable/background</item>-->
+		<item name="android:windowFrame">@null</item>
+	</style>
+
+	<style name="Scroller">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+<!--        <item name="android:background">@drawable/slider_back</item>-->
+        <item name="android:layout_margin">3dp</item>
+    </style>
+	
+</resources>
