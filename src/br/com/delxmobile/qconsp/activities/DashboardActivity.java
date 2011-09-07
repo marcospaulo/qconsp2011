@@ -50,7 +50,7 @@ public class DashboardActivity extends Activity {
 		Button mapa = (Button) findViewById(R.id.home_btn_mapa);
 		mapa.setOnClickListener(new Button.OnClickListener() {
 			public void onClick(View v) {
-				startActivity(new Intent(DashboardActivity.this, PalestraSabado.class));
+				startActivity(new Intent(DashboardActivity.this, Local.class));
 			}
 		}); 
 		

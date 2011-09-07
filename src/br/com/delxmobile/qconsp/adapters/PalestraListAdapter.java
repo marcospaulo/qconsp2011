@@ -48,15 +48,21 @@ public class PalestraListAdapter extends BaseAdapter {
 		// Atualiza o valor do TextView
 		TextView titulo = (TextView) view.findViewById(R.id.palestra);
 		titulo.setText(c.titulo);
-		
-		TextView palestrante = (TextView) view.findViewById(R.id.palestrante);
-		palestrante.setText(c.palestrante);
-
+				
 		TextView horario = (TextView) view.findViewById(R.id.horario);
 		horario.setText(c.horario);
-		
+	
+		TextView palestrante = (TextView) view.findViewById(R.id.palestrante);
 		ImageView foto = (ImageView) view.findViewById(R.id.foto);
+		if(c.palestrante != ""){
 		foto.setImageResource(fotos[aux_palestrante.foto]);
+		palestrante.setText(c.palestrante);
+		
+		}
+		else{
+		foto.setVisibility(4);
+		palestrante.setVisibility(4);
+		}
  		repositorio.fechar();
 		return view;
 	}

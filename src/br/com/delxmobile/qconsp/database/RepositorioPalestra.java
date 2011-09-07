@@ -50,6 +50,7 @@ public class RepositorioPalestra {
 			int idxPalestrante = c.getColumnIndex(Palestras.PALESTRANTE);
 			int idxResumo = c.getColumnIndex(Palestras.RESUMO);
 			int idxDia = c.getColumnIndex(Palestras.DIA);
+			int idxTrilha = c.getColumnIndex(Palestras.TRILHA);
 
 			Palestra palestra = new Palestra();
 
@@ -61,6 +62,7 @@ public class RepositorioPalestra {
 			palestra.palestrante = c.getString(idxPalestrante);
 			palestra.resumo = c.getString(idxResumo);
 			palestra.dia = c.getString(idxDia);
+			palestra.trilha = c.getInt(idxTrilha);
 
 			return palestra;
 		}
@@ -94,6 +96,7 @@ public class RepositorioPalestra {
 			int idxPalestrante = c.getColumnIndex(Palestras.PALESTRANTE);
 			int idxResumo = c.getColumnIndex(Palestras.RESUMO);
 			int idxDia = c.getColumnIndex(Palestras.DIA);
+			int idxTrilha = c.getColumnIndex(Palestras.TRILHA);
 
 			// Loop at� o final
 			do {
@@ -106,6 +109,7 @@ public class RepositorioPalestra {
 				palestra.palestrante = c.getString(idxPalestrante);
 				palestra.resumo = c.getString(idxResumo);
 				palestra.dia = c.getString(idxDia);
+				palestra.trilha = c.getInt(idxTrilha);
 
 
 			} while (c.moveToNext());
