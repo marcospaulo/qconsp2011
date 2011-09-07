@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:paddingTop="5dp"
+	android:background="#FFFFFF">
+	<include layout="@layout/actionbar" />
+	<ScrollView android:id="@+id/scrollView1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/linearLayout5"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical" android:padding="5dp">
+			<LinearLayout android:id="@+id/linearLayout4"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<LinearLayout android:id="@+id/linearLayout2"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:orientation="vertical">
+					<LinearLayout android:id="@+id/linearLayout8"
+						android:layout_width="fill_parent" android:layout_height="wrap_content"
+						android:gravity="center" android:orientation="horizontal"
+						android:paddingBottom="5dp">
+						<ImageView android:src="@drawable/w01" android:id="@+id/foto"
+							android:layout_height="100dp" android:layout_width="100dp"></ImageView>
+						<LinearLayout android:orientation="vertical"
+							android:id="@+id/linearLayout6" android:layout_width="wrap_content"
+							android:layout_height="fill_parent" android:paddingLeft="5dp">
+							<TextView android:layout_height="wrap_content"
+								android:textSize="18dp" android:layout_width="wrap_content"
+								android:textColor="#015daa" android:id="@+id/nome" android:text="Adriano Almeida"></TextView>
+							<TextView android:layout_height="wrap_content"
+								android:layout_width="wrap_content" android:textColor="#444444"
+								android:id="@+id/palestra" android:text="Apresentação"
+								android:paddingTop="5dp" android:textSize="16dp"></TextView>
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:id="@+id/linearLayout3"
+					android:padding="5dp" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:orientation="vertical">
+					<TextView android:textColor="#686868"
+						android:layout_width="wrap_content" android:textSize="16dp"
+						android:layout_height="wrap_content" android:id="@+id/perfil"
+						android:text="Trabalha desde 2008 pela Caelum como consultor, desenvolvedor e instrutor. Já palestrou em eventos importantes no Brasil como o QCon e OxenteRails e também no exterior (Devoxx, na Bélgica) e participa de projetos opensource como o VRaptor. Também possui artigos publicados em revistas brasileiras sobre a plataforma Java em geral. Também desenvolve com Ruby e Rails e é um dos instrutores da formação Rails. Gosta de aprender novos paradigmas de programação e formas mais simples de resolver problemas. "></TextView>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

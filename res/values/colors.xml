@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<color name="title_separator">#40ffffff</color>
-	<color name="actionbar_text">#ffffff</color>
+	<color name="actionbar_text">#015daa</color>
 	<color name="transparent">#00000000</color>
+	<color name="blue_qcon">#015daa</color>
+	<color name="dark_grey">#444444</color>
+	<color name="light_grey">#686868</color>
 </resources>

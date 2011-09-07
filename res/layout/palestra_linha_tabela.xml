@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="wrap_content" android:paddingTop="10dp" android:paddingBottom="10dp">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout5" android:layout_width="fill_parent" android:orientation="horizontal" android:gravity="center_vertical">
+        <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout7" android:orientation="vertical" android:paddingRight="10dp" android:paddingTop="10dp" android:layout_width="60dp" android:paddingLeft="3dp" android:gravity="center">
+            <TextView android:layout_height="60dp" android:id="@+id/horario" android:textColor="#015daa" android:text="08:00 - 09:00" android:textSize="16dp" android:layout_width="wrap_content"></TextView>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_height="wrap_content" android:id="@+id/linearLayout4" android:layout_width="200dp">
+            <LinearLayout android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content" android:id="@+id/lauyout">
+                <TextView android:id="@+id/palestra" android:text="Aprendizados de grandes sistemas HTTP-centric" android:layout_width="wrap_content" android:textSize="16dp" android:layout_height="wrap_content" android:textColor="#015daa"></TextView>
+            </LinearLayout>
+            <LinearLayout android:padding="5dp" android:gravity="center" android:layout_width="wrap_content" android:orientation="horizontal" android:layout_height="wrap_content" android:id="@+id/LinearLayout01">
+                <TextView android:id="@+id/palestrante" android:text="Jim Webber" android:layout_width="wrap_content" android:textSize="14dp" android:layout_height="wrap_content" android:textColor="#515151"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/linearLayout1" android:orientation="vertical">
+            <ImageView android:layout_width="wrap_content" android:src="@drawable/w01" android:layout_height="wrap_content" android:id="@+id/foto"></ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -6,7 +6,7 @@
 	<dimen	name="text_size_large">18sp</dimen>
 	<dimen	name="text_size_extralarge">22sp</dimen>
 
-	<dimen	name="actionbar_height">40dp</dimen>
+	<dimen	name="actionbar_height">45dp</dimen>
 
 
 </resources>

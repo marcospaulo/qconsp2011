@@ -35,7 +35,7 @@
 		<item name="android:layout_width">fill_parent</item>
 		<item name="android:layout_height">@dimen/actionbar_height</item>
 		<item name="android:orientation">horizontal</item>
-<!--		<item name="android:background">@drawable/background</item>-->
+		<item name="android:background">@drawable/bg_actionbar</item>
 	</style>
 
 	<style name="TitleBarButtons">
@@ -70,7 +70,7 @@
 		<item name="android:clickable">false</item>
 		<item name="android:scaleType">center</item>
 		<item name="android:contentDescription">@string/description_logo</item>
-		<item name="android:src">@drawable/logo_qconsp</item>
+		<item name="android:src">@drawable/logo</item>
 	</style>
 
 	<style name="ActionBarCompatText">

@@ -84,6 +84,9 @@ containing a value of this type.
     }
     public static final class color {
         public static final int actionbar_text=0x7f040001;
+        public static final int blue_qcon=0x7f040003;
+        public static final int dark_grey=0x7f040004;
+        public static final int light_grey=0x7f040005;
         public static final int title_separator=0x7f040000;
         public static final int transparent=0x7f040002;
     }
@@ -96,31 +99,134 @@ containing a value of this type.
     }
     public static final class drawable {
         public static final int actionbar_compat_separator=0x7f020000;
-        public static final int ic_action_home=0x7f020001;
-        public static final int ic_action_home_click=0x7f020002;
-        public static final int ic_action_home_hover=0x7f020003;
-        public static final int ic_action_home_normal=0x7f020004;
-        public static final int icon=0x7f020005;
-        public static final int logo_qconsp=0x7f020006;
+        public static final int bg_actionbar=0x7f020001;
+        public static final int bg_app=0x7f020002;
+        public static final int domingo=0x7f020003;
+        public static final int ic_action_home=0x7f020004;
+        public static final int ic_action_home_click=0x7f020005;
+        public static final int ic_action_home_hover=0x7f020006;
+        public static final int ic_action_home_normal=0x7f020007;
+        public static final int icon=0x7f020008;
+        public static final int logo=0x7f020009;
+        public static final int logo_qconsp=0x7f02000a;
+        public static final int logo_qconsppng=0x7f02000b;
+        public static final int mapa=0x7f02000c;
+        public static final int palestrante=0x7f02000d;
+        public static final int sabado=0x7f02000e;
+        public static final int share=0x7f02000f;
+        public static final int twitter=0x7f020010;
+        public static final int w01=0x7f020011;
+        public static final int w02=0x7f020012;
+        public static final int w03=0x7f020013;
+        public static final int w04=0x7f020014;
+        public static final int w05=0x7f020015;
+        public static final int w06=0x7f020016;
+        public static final int w07=0x7f020017;
+        public static final int w08=0x7f020018;
+        public static final int w09=0x7f020019;
+        public static final int w10=0x7f02001a;
+        public static final int w11=0x7f02001b;
+        public static final int w12=0x7f02001c;
+        public static final int w13=0x7f02001d;
+        public static final int w14=0x7f02001e;
+        public static final int w15=0x7f02001f;
+        public static final int w16=0x7f020020;
+        public static final int w17=0x7f020021;
+        public static final int w18=0x7f020022;
+        public static final int w19=0x7f020023;
+        public static final int w20=0x7f020024;
+        public static final int w21=0x7f020025;
+        public static final int w22=0x7f020026;
+        public static final int w23=0x7f020027;
+        public static final int w24=0x7f020028;
+        public static final int w25=0x7f020029;
+        public static final int w26=0x7f02002a;
+        public static final int w27=0x7f02002b;
+        public static final int w28=0x7f02002c;
+        public static final int w29=0x7f02002d;
+        public static final int w30=0x7f02002e;
+        public static final int w31=0x7f02002f;
+        public static final int w32=0x7f020030;
+        public static final int w33=0x7f020031;
+        public static final int w34=0x7f020032;
+        public static final int w35=0x7f020033;
+        public static final int w36=0x7f020034;
+        public static final int w37=0x7f020035;
+        public static final int w38=0x7f020036;
+        public static final int w39=0x7f020037;
+        public static final int w40=0x7f020038;
+        public static final int w41=0x7f020039;
+        public static final int w42=0x7f02003a;
+        public static final int w43=0x7f02003b;
+        public static final int w44=0x7f02003c;
+        public static final int w45=0x7f02003d;
+        public static final int w46=0x7f02003e;
+        public static final int w47=0x7f02003f;
+        public static final int w48=0x7f020040;
+        public static final int w49=0x7f020041;
+        public static final int w50=0x7f020042;
+        public static final int w51=0x7f020043;
+        public static final int w52=0x7f020044;
+        public static final int w53=0x7f020045;
+        public static final int w54=0x7f020046;
+        public static final int w55=0x7f020047;
+        public static final int w56=0x7f020048;
+        public static final int w57=0x7f020049;
+        public static final int w58=0x7f02004a;
+        public static final int w59=0x7f02004b;
+        public static final int w60=0x7f02004c;
+        public static final int w61=0x7f02004d;
     }
     public static final class id {
+        public static final int GridItem=0x7f06001f;
+        public static final int LinearLayout01=0x7f060025;
+        public static final int TextView01=0x7f060013;
+        public static final int TextView02=0x7f060017;
         public static final int actionbar=0x7f060001;
         public static final int actionbar_compat_logo=0x7f060000;
         public static final int actionbar_compat_text=0x7f060002;
-        public static final int home_btn_americanfootball=0x7f060006;
-        public static final int home_btn_baseball=0x7f060003;
-        public static final int home_btn_basketball=0x7f060004;
-        public static final int home_btn_cricket=0x7f060005;
-        public static final int home_btn_formula_um=0x7f060007;
-        public static final int home_btn_hockey=0x7f060008;
-        public static final int home_btn_rugby=0x7f060009;
-        public static final int home_btn_soccer=0x7f06000a;
-        public static final int home_btn_tennis=0x7f06000b;
+        public static final int foto=0x7f060011;
+        public static final int grid_item_image=0x7f060020;
+        public static final int grid_item_text=0x7f060021;
+        public static final int gridview=0x7f060022;
+        public static final int home_btn_domingo=0x7f060004;
+        public static final int home_btn_lembrar=0x7f060007;
+        public static final int home_btn_mapa=0x7f060006;
+        public static final int home_btn_palestrante=0x7f060005;
+        public static final int home_btn_sabado=0x7f060003;
+        public static final int home_btn_twitter=0x7f060008;
+        public static final int horario=0x7f060015;
+        public static final int lauyout=0x7f060024;
+        public static final int linearLayout1=0x7f06000c;
+        public static final int linearLayout2=0x7f06000d;
+        public static final int linearLayout3=0x7f060012;
+        public static final int linearLayout4=0x7f06000b;
+        public static final int linearLayout5=0x7f06000a;
+        public static final int linearLayout6=0x7f060016;
+        public static final int linearLayout7=0x7f060019;
+        public static final int linearLayout8=0x7f06001b;
+        public static final int linearLayout9=0x7f060010;
+        public static final int listview=0x7f060023;
+        public static final int nome=0x7f06001c;
+        public static final int palestra=0x7f06001d;
+        public static final int palestrante=0x7f06000f;
+        public static final int perfil=0x7f06001e;
+        public static final int ratingBar1=0x7f060018;
+        public static final int resumo=0x7f060014;
+        public static final int scrollView1=0x7f060009;
+        public static final int share=0x7f06001a;
+        public static final int titulo=0x7f06000e;
     }
     public static final class layout {
         public static final int actionbar=0x7f030000;
         public static final int dashboard=0x7f030001;
         public static final int dashboard_mid=0x7f030002;
+        public static final int detalhespalestra=0x7f030003;
+        public static final int detalhespalestrante=0x7f030004;
+        public static final int grid_item=0x7f030005;
+        public static final int gridpalestrante=0x7f030006;
+        public static final int listarpalestras=0x7f030007;
+        public static final int palestra_linha_tabela=0x7f030008;
     }
     public static final class string {
         public static final int app_name=0x7f070003;
@@ -129,8 +235,6 @@ containing a value of this type.
         public static final int description_logo=0x7f070000;
     }
     public static final class style {
-        /** 		<item name="android:background">@drawable/background</item>
-         */
         public static final int ActionBar=0x7f080001;
         public static final int ActionBarCompatLogo=0x7f080005;
         public static final int ActionBarCompatSeparator=0x7f080004;
